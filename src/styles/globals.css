@@ -1,0 +1,54 @@
+.dash-border{
+  background: linear-gradient(90deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(90deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(0deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(0deg, rgb(93, 93, 94) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+  background-position: 0px 0px, 100% 100%, 0px 100%, 100% 0px;    
+}
+
+.dash-border:hover{
+  animation: border-dance 10s infinite linear;
+}
+
+.dash-border-animate:hover{
+  background: linear-gradient(90deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(90deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(0deg, rgb(93, 93, 94) 50%, transparent 50%), linear-gradient(0deg, rgb(93, 93, 94) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px; 
+  animation: border-dance 10s infinite linear;
+}
+
+@keyframes border-dance {
+  0% {
+    background-position: 0px 0px, 100% 100%, 0px 100%, 100% 0px;
+  }
+  100% {
+    background-position: 100% 0px, 0px 100%, 0px 0px, 100% 100%;
+  }
+}
+
+.float-header{
+  position:fixed;
+  width:100px;
+  height:100px;
+  bottom:150px;
+  right:40px;
+  background-color:#0C9;
+  color:#FFF;
+  border-radius:50px !important;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+  
+
+.float-footer{
+position:fixed;
+width:100px;
+height:100px;
+bottom:40px;
+right:40px;
+background-color:#0C9;
+color:#FFF;
+border-radius:50px !important;
+text-align:center;
+box-shadow: 2px 2px 3px #999;
+}
+
