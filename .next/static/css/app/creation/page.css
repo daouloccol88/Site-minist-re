@@ -1151,43 +1151,43 @@ pre::-webkit-scrollbar-thumb {
 }
 
 i.undo {
-  background-image: url(/icons/arrow-counterclockwise.svg);
+  background-image: url(/_next/static/media/arrow-counterclockwise.8d9125b5.svg);
 }
 
 i.redo {
-  background-image: url(/icons/arrow-clockwise.svg);
+  background-image: url(/_next/static/media/arrow-clockwise.989e9b4d.svg);
 }
 
 i.bold {
-  background-image: url(/icons/type-bold.svg);
+  background-image: url(/_next/static/media/type-bold.75675c47.svg);
 }
 
 i.italic {
-  background-image: url(/icons/type-italic.svg);
+  background-image: url(/_next/static/media/type-italic.cd79165b.svg);
 }
 
 i.underline {
-  background-image: url(/icons/type-underline.svg);
+  background-image: url(/_next/static/media/type-underline.cda93251.svg);
 }
 
 i.strikethrough {
-  background-image: url(/icons/type-strikethrough.svg);
+  background-image: url(/_next/static/media/type-strikethrough.1d04de1e.svg);
 }
 
 i.left-align {
-  background-image: url(/icons/text-left.svg);
+  background-image: url(/_next/static/media/text-left.27cfc29b.svg);
 }
 
 i.center-align {
-  background-image: url(/icons/text-center.svg);
+  background-image: url(/_next/static/media/text-center.a47404c8.svg);
 }
 
 i.right-align {
-  background-image: url(/icons/text-right.svg);
+  background-image: url(/_next/static/media/text-right.b2990204.svg);
 }
 
 i.justify-align {
-  background-image: url(/icons/justify.svg);
+  background-image: url(/_next/static/media/justify.0f263645.svg);
 }
 
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
