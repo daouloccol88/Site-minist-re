@@ -46,7 +46,7 @@ export default function Editor() {
 
 
   return (
-    <div className="editor-container">
+    <div className="container">
       <ToolbarPlugin />
       <div className="editor-inner">
         <RichTextPlugin
@@ -65,7 +65,7 @@ export default function Editor() {
           <FloatingLinkEditorPlugin anchorElem={floatingAnchorElem} />
         )}
         <MarkdownShortcutPlugin transformers={TRANSFORMERS} />
-        {/* <TreeViewPlugin /> */}
+        {/*<TreeViewPlugin />*/}
       </div>
     </div>
   );

@@ -8,11 +8,11 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-        <div className="container-fluid shadow-lg mt-5">
+        <div className="container-fluid bg-body shadow-lg mt-5">
           <div className="container">
-            <footer className="py-5">
+            <footer className="pt-5">
               <div className="row">
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2">
                   <h5>Section</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2">
                   <h5>Section</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2">
                   <h5>Section</h5>
                   <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -47,7 +47,7 @@ const Footer = () => {
 
               </div>
 
-              <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <div className="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
                 <p>&copy; 2024 Codeloccol, Edu. All rights reserved.</p>
                 <ul className="list-unstyled d-flex">
                   <li className="ms-3"><a className="link-body-emphasis" href="#"><FaXTwitter size={30}/></a></li>
