@@ -24,6 +24,7 @@ function Placeholder() {
 
 export default function Editor() {
 
+  const [inputs, setInputs] = useState({});
   const isSmallWidthViewPort = useMediaQuery('(max-width: 1025px)')
   const [previewMode, setPreviewMode] = useState(false)
   const [textValue, setTextValue] = useState("")
@@ -35,7 +36,10 @@ export default function Editor() {
       const markdown = $convertToMarkdownString(TRANSFORMERS);
       const htmlString = $generateHtmlFromNodes(editor, null);
       console.log(htmlString);
-      setTextValue(markdown)
+      setTextValue(htmlString)
+      setInputs(prev => {
+        return { ...prev, ["content"]: (htmlString) };
+      });
     });
   }
   const onRef = (_floatingAnchorElem) => {
@@ -44,9 +48,57 @@ export default function Editor() {
     }
   }
 
+  const handleSubmit = ()=> {
+    //TODO function de creation d'article (ajout la requete POST avec la bonne data)
+    console.log(inputs, textValue);
+  }
 
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setInputs(prev => {
+      return { ...prev, [name]: (value) };
+    });
+  }
   return (
-    <div className="editor-container">
+    <div className="container">
+
+      <div className="d-flex justify-content-between bg-white p-3">
+
+        <div>
+        <label>Titre</label>
+        <input
+          type="string"
+          name="title"
+          placeholder="TITRE"
+          value={inputs.title || ''}
+          onChange={handleChange}
+        />
+        </div>
+
+        <div>
+          <label>Description</label>
+        <input
+          type="string"
+          name="description"
+          placeholder="description"
+          value={inputs.description || ''}
+          onChange={handleChange}
+        />
+        </div>
+        <div>
+        <select className="form-select" name="category" onChange={handleChange} aria-label="Default select example">
+          <option defaultValue={inputs.category || "0"}>Selectionner une Categorie:</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        </div>
+        <div className="text-center my-2">
+          <button className='btn bg-success text-white' type="submit" onClick={() => handleSubmit()} >Crée l&apos;article</button>
+        </div>
+      </div>
+
       <ToolbarPlugin />
       <div className="editor-inner">
         <RichTextPlugin
