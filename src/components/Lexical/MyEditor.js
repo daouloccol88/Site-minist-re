@@ -48,7 +48,7 @@ export default function Editor() {
     }
   }
 
-  const handleSubmit = ()=> {
+  const handleSubmit = () => {
     //TODO function de creation d'article (ajout la requete POST avec la bonne data)
     console.log(inputs, textValue);
   }
@@ -62,10 +62,46 @@ export default function Editor() {
   }
   return (
     <div className="container">
+      
+      <div className="d-flex justify-content-between bg-white p-3">
+
+        <div>
+          <label>Titre</label>
+          <input
+            type="string"
+            name="title"
+            placeholder="TITRE"
+            value={inputs.title || ''}
+            onChange={handleChange}
+          />
+        </div>
+
+        <div>
+          <label>Description</label>
+          <input
+            type="string"
+            name="description"
+            placeholder="description"
+            value={inputs.description || ''}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <select className="form-select" name="category" onChange={handleChange} aria-label="Default select example">
+            <option defaultValue={inputs.category || "0"}>Selectionner une Categorie:</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div className="text-center my-2">
+          <button className='btn bg-success text-white' type="submit" onClick={() => handleSubmit()} >Crée l&apos;article</button>
+        </div>
+      </div>
       <ToolbarPlugin />
       <div className="editor-inner">
         <RichTextPlugin
-          contentEditable={<div className="editor" ref={onRef}><ContentEditable className="editor-input"/></div>}
+          contentEditable={<div className="editor" ref={onRef}><ContentEditable className="editor-input" /></div>}
           placeholder={<Placeholder />}
           ErrorBoundary={LexicalErrorBoundary}
         />
