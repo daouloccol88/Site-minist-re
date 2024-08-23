@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <body>
-          <span><Header/></span>
-          <span>{children}</span>
-          <span><Footer/></span>
+        <body className="bg-body-secondary">
+          <Header/>
+          {children}
+          <Footer/>
         <script src="/js/boostrap.js"></script>
         </body>
     </html>

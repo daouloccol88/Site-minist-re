@@ -37,7 +37,7 @@ const editorConfig = {
 };
 const page = () => {
   return (
-    <div style={{ height: "100%", width: "100%" }}>
+    <div >
       <LexicalComposer initialConfig={editorConfig}>
         <MyEditor/>
       </LexicalComposer>

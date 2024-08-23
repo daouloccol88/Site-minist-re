@@ -100,10 +100,10 @@ function editMenu() {
 
   return (
     <div>
-        <nav className="navbar bg-body-tertiary">
+        <nav className="navbar bg-body">
             <div className="container">
                 <a className="link-underline link-underline-opacity-0" href="/">
-                    <div className="card border-0 brand bg-body-tertiary" style={{maxWidth: "540px"}}>
+                    <div className="card border-0 brand" style={{maxWidth: "540px"}}>
                         <div className="row g-0">
                           <div className="col-md-4">
                             <Image src="/img/Coat_of_arms_of_Niger.svg.png" width={300} height={250}  className="img-fluid rounded-start" alt="..."/>
@@ -133,7 +133,7 @@ function editMenu() {
          
 
         <div className="shadow mb-5">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body">
                 <div className="container border-top">
                 
                 <div className="collapse navbar-collapse" id="navbarNav">

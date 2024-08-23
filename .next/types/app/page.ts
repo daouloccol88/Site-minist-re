@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // File: /Users/saheliandev/Desktop/Personnal/Site-minist-re/src/app/page.js
+=======
+// File: C:\Users\Codeloccol\Desktop\Site-minist-re\src\app\page.js
+>>>>>>> 591645c2ba615b781850ca9e1ad47260711c9ef5
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
