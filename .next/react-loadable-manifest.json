@@ -1,9 +1,79 @@
 {
-  "components\\Lexical\\nodes\\InlineImageNode.jsx -> ./InlineImageComponent": {
-    "id": "components\\Lexical\\nodes\\InlineImageNode.jsx -> ./InlineImageComponent",
+  "components/Lexical/nodes/EquationNode.tsx -> ./EquationComponent": {
+    "id": "components/Lexical/nodes/EquationNode.tsx -> ./EquationComponent",
     "files": [
-      "static/css/_app-pages-browser_src_components_Lexical_nodes_InlineImageComponent_jsx.css",
-      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_InlineImageComponent_jsx.js"
+      "static/css/_app-pages-browser_src_components_Lexical_nodes_EquationComponent_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_EquationComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/nodes/ExcalidrawNode/index.tsx -> ./ExcalidrawComponent": {
+    "id": "components/Lexical/nodes/ExcalidrawNode/index.tsx -> ./ExcalidrawComponent",
+    "files": [
+      "static/css/_app-pages-browser_src_components_Lexical_nodes_ExcalidrawNode_ExcalidrawComponent_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_ExcalidrawNode_ExcalidrawComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/nodes/ImageNode.tsx -> ./ImageComponent": {
+    "id": "components/Lexical/nodes/ImageNode.tsx -> ./ImageComponent",
+    "files": [
+      "static/css/_app-pages-browser_src_components_Lexical_nodes_ImageComponent_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_ImageComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/nodes/PollNode.tsx -> ./PollComponent": {
+    "id": "components/Lexical/nodes/PollNode.tsx -> ./PollComponent",
+    "files": [
+      "static/css/_app-pages-browser_src_components_Lexical_nodes_PollComponent_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_PollComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/nodes/StickyNode.tsx -> ./StickyComponent": {
+    "id": "components/Lexical/nodes/StickyNode.tsx -> ./StickyComponent",
+    "files": [
+      "static/css/_app-pages-browser_src_components_Lexical_nodes_StickyComponent_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_StickyComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/nodes/TableNode.tsx -> ./TableComponent": {
+    "id": "components/Lexical/nodes/TableNode.tsx -> ./TableComponent",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_Lexical_nodes_TableComponent_tsx.js"
+    ]
+  },
+  "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-babel": {
+    "id": "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-babel",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_prettier_parser-babel_js.js"
+    ]
+  },
+  "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-html": {
+    "id": "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-html",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_prettier_parser-html_js.js"
+    ]
+  },
+  "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-markdown": {
+    "id": "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-markdown",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_prettier_parser-markdown_js.js"
+    ]
+  },
+  "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-postcss": {
+    "id": "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/parser-postcss",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_prettier_parser-postcss_js.js"
+    ]
+  },
+  "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/standalone": {
+    "id": "components/Lexical/plugins/CodeActionMenuPlugin/components/PrettierButton/index.tsx -> prettier/standalone",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_prettier_standalone_js.js"
+    ]
+  },
+  "components/Lexical/plugins/EmojiPickerPlugin/index.tsx -> ./emoji-list.ts": {
+    "id": "components/Lexical/plugins/EmojiPickerPlugin/index.tsx -> ./emoji-list.ts",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_Lexical_plugins_EmojiPickerPlugin_emoji-list_ts.js"
     ]
   }
 }
